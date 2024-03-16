@@ -16,6 +16,7 @@ export const Form = ({ handleColors }) => {
                     onChange={(e) => {
                         setColor(e.target.value);
                     }}
+                    value="#ff0000"
                 ></input>
                 <input
                     type="text"
