@@ -13,8 +13,6 @@ function App() {
         });
     };
     useEffect(() => {
-        console.log("heool");
-
         setColors((prevColor) => {
             try {
                 const newColor = new values(color).all(9);
